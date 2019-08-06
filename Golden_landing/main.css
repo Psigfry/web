@@ -165,3 +165,65 @@ h1 {
 footer{
     text-align: center;
 }
+
+
+
+.about{
+    padding-top: 80px;
+   }
+   .about-elem{
+    position: relative;
+    display:block;
+    text-align: center;
+    margin-bottom: 80px;
+   }
+   .about-elem .image{
+    display: inline-block;
+    margin-top: -66px;
+    border-radius: 50%;
+
+    height: 200px;
+   }
+   .about-elem .image img{
+    display: inline-block;
+    vertical-align: top;
+   }
+   .about-elem .content{
+    position: absolute;
+    top: -15px;
+   }
+   .about-elem .text_rght{
+    text-align: right;
+   }
+   .about-elem .text_lft{
+    text-align: left;
+   }
+   .about-elem .content span{
+    text-transform: uppercase;
+   }
+   .about-elem .content p{
+    color: #777777;
+    line-height:  1.55em;
+   }
+   
+   .about-elem:nth-child(odd) .content{
+    right: 50%;
+    margin-right: 130px;
+   }
+   .about-elem:nth-child(even) .content{
+    left: 50%;
+    margin-left: 130px;
+   }
+   .about-elem .content .titless{
+    font-weight: 700;
+    text-align: right;
+   }
+   .about-elem .content .titless-lft{
+    text-align: left;
+   }
+   #copyright p{
+    color: #777777;
+    text-align: center;
+    margin: o auto;
+    padding-top: 90px;
+   }
