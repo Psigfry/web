@@ -1,0 +1,142 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+.header{
+    background: #fcdb00;
+    color: black;
+    padding-top: 58px;
+    padding-bottom: 105px;
+}
+
+ul, li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    margin-top: 8px;
+}
+.menu__item{
+    margin: 0 45px;
+}
+.menu__item a{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+}
+.icons__item a{
+    font-size: 42px;
+    color: #000;
+}
+.icons__item a:hover{
+    text-decoration: none;
+}
+.icons__item{
+    margin-right: 30px;
+}
+
+.offer__title{
+    font-size: 32px;
+    margin-bottom: 6px;
+    font-weight: 700;
+}
+.offer__intro{
+    padding-top: 6px;
+    font-size: 20px;
+    line-height: 1.3em;
+}
+.offer__text{
+    font-size: 16px;
+    margin-top: 15px;
+    color: #555;
+    width: 400px;
+
+}
+.offer{
+    margin-top: 117px;
+}
+.ipad{
+    display: block;
+    margin: 60px auto 0;
+}
+.title{
+    padding-top: 115px;
+    text-align: center;
+
+}
+.title__features{
+    font-weight: 700;
+    color: #000;
+    font-size: 32px;
+    
+}
+.title__text{
+
+    padding-top: 20px;
+    width: 740px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.clap{
+    padding-top: 85px;
+}
+.clap__icon{
+    color: #000;
+    font-size: 50px;
+    margin-right: 37px;
+}
+.clap__block{
+    width: 205px;
+}
+.clap__text{
+    color: #889988;
+}
+.features{
+    padding-bottom: 120px;
+}
+.touch{
+    background: #000;
+}
+.yellow{
+    color: #fcdb00;
+}
+.touch__us{
+    text-align: center;
+    padding-top: 95px;
+    width: 730px;
+    margin: 0 auto;
+}
+.form{
+    background: #000;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.form__input{
+    background: #fff;
+    border-radius: 5px;
+    width: 580px;
+    padding: 14px 0;
+    margin-right: 21px;
+    border: 0;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    padding-left: 23px;
+}
+.form__btn{
+    background: #fcdb00;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    padding: 14px 0;
+    width: 120px;
+    font-weight: 700;
+}
+.footer{
+    background: #000;
+}
+.footer__class{
+    color: #889988;
+    text-align: center;
+    padding-bottom: 20px;
+}
